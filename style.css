@@ -39,8 +39,9 @@ body{
     transition: padding 150ms;
     -webkit-appearance: none;
     appearance: none;
-    margin-right: 18px;
     padding-right: 120px;
+    width: 70%;
+    margin-bottom: 10px;
 }
 .upper-btn{
     background-color: #212326;
@@ -59,6 +60,7 @@ body{
     border-style: solid;
     border-color: transparent;
     cursor: pointer;
+    width: 100%;
 }
 .middle-block{
     float: left;
@@ -87,10 +89,22 @@ body{
     font-weight: 700;
 }
 .image-section{
-    width: 70%;
-    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
+.logo-soup{
+    display: flex;
+    width: 70%;
+    padding: 30px 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.list-item img{
+    width: 50%;
+}
 .marketing-button{
     padding: 1em 1.8125em;
     border-radius: 4px;
@@ -113,7 +127,10 @@ font-family: ShopifySans, Helvetica, Arial, sans-serif;
 margin-top: 50px;
 }
 .link{
-    margin: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .link-text{
     margin: 1rem;
@@ -122,7 +139,5 @@ margin-top: 50px;
     color: #008060;
    
 }
-
-
 
 
